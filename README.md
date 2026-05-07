@@ -137,6 +137,29 @@ npx skills add leezythu/maoxuan-skill
 
 ---
 
+## 外挂知识库（可选）
+
+毛选.skill 的核心思维框架是自包含的，安装后即可使用。如果你希望 AI 能检索毛选原文、提供精确引用，可以配置外挂知识库。
+
+**方法一：一键克隆（推荐）**
+
+```bash
+git clone https://github.com/weiyinfu/MaoZeDongAnthology.git ~/MaoZeDongAnthology
+```
+
+放在 Home 目录下即可被自动发现，无需额外配置。
+
+**方法二：自定义路径**
+
+```bash
+git clone https://github.com/weiyinfu/MaoZeDongAnthology.git /你的路径/MaoZeDongAnthology
+export MAOXUAN_KB_PATH=/你的路径/MaoZeDongAnthology  # 可加入 ~/.zshrc 持久化
+```
+
+**自动发现机制**：Skill 检索原文时会依次检查环境变量 `MAOXUAN_KB_PATH`、当前目录、父目录、Home 目录下的 `MaoZeDongAnthology/`。找不到知识库时 Skill 仍可正常使用，只是不会检索原文。
+
+---
+
 ## 蒸馏了什么
 
 毛选的核心不是具体结论，是**认识世界和改造世界的方法论**。本Skill提炼了他的认知操作系统：
