@@ -243,6 +243,12 @@ MIT — 随便用，随便改，随便造。
 
 ---
 
+## 作者的其他项目
+
+**[Mini Claude Code](https://github.com/leezythu/mini-claude-code)** — 用 ~700 行 Python 复刻 Claude Code 的核心架构。把 51 万行 TypeScript 的庞大工程压缩到 5 个文件，保留完整的 agentic loop、工具系统、权限管理。想理解 AI coding agent 是怎么工作的？读这一个仓库就够了。
+
+---
+
 ## 致谢
 
 本项目受 [童锦程.skill](https://github.com/hotcoffeeshake/tong-jincheng-skill) 启发——用深情祖师爷的思维框架分析人际关系，让我看到了"蒸馏一个人的认知框架"这条路的价值。同时感谢 [女娲.skill](https://github.com/alchaincyf/nuwa-skill) 提供的方法论框架。
